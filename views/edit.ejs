@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/form.css">
+</head>
+<body>
+    
+    <h1>Edit form</h1>
+    <form action="/update/<%= filename %>" method="post">
+        <input id="one" type="text" placeholder="File name"  value='<%= filename %>'name="filename">
+        <textarea name="filedata" placeholder="file data"><%= filedata %></textarea>
+        <input id="btn" type="submit"  value="Edit">
+    </form>
+</body>
+</html>

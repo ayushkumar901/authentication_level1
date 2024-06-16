@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 40px;
+}
+form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 25%;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+#one{
+    height: 8vh;
+    padding-left: 10px;
+}
+textarea{
+    resize: none; 
+    min-height: 10vh;
+    padding: 10px;
+    /* resize none dene se uska size fix ho jayega */
+}
+#btn{
+    background-color: blue;
+    height: 8vh;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}

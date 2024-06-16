@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/form.css">
+</head>
+<body>
+    <nav>
+        <a href="http://localhost:3000/">Home</a>
+        <a href="http://localhost:3000/form">Create form</a>
+    </nav>
+    <h1>Create form</h1>
+    <form action="/register" method="post">
+        <input id="one" type="text" placeholder="File name" name="filename">
+        <textarea name="filedata" placeholder="file data"></textarea>
+        <input id="btn" type="submit"  value="create">
+    </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 40px;
+   
+}
+.page{
+
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+h1{
+    color:blue;
+    margin-bottom: 10px;
+}
+.box{
+    height: 30vh;
+    width: 27vw;
+    background-color: rgb(164, 161, 161);
+    border-radius: 20px;
+    padding: 18px;
+}
+h3{
+    color: black;
+    margin-bottom: 6px;
+}
+a{
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.delete{
+    color: red;
+}
